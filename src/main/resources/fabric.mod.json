@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_largeenchants",
+  "version": "${version}",
+
+  "name": "Large Enchants",
+  "description": "Removes the 255 level limit on enchantments.",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "",
+  "icon": "assets/gud_largeenchants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.gudenau.minecraft.largeenchants.LargeEnchants"
+    ]
+  },
+  "mixins": [
+    "gud_largeenchants.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  }
+}
