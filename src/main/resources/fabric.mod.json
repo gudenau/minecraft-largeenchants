@@ -9,11 +9,11 @@
     "gudenau"
   ],
   "contact": {
-    "homepage": "",
-    "sources": ""
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/large-enchants",
+    "sources": "https://github.com/gudenau/minecraft-largeenchants"
   },
 
-  "license": "",
+  "license": "CC0-1.0",
   "icon": "assets/gud_largeenchants/icon.png",
 
   "environment": "*",
@@ -27,7 +27,7 @@
   ],
 
   "depends": {
-    "fabric": "*",
-    "minecraft": "1.15.x"
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.15"
   }
 }
